@@ -1,0 +1,64 @@
+{
+  "tokens": [
+    {
+      "id": 1,
+      "token": "ETH",
+      "name": "Ethereum",
+      "description": "Ethereum is an open-source blockchain-based platform used to create and share business, financial services, and entertainment applications. Ethereum users pay fees to use dapps. The fees are called 'gas' because they vary depending on the amount of computational power required. Ethereum has its own associated cryptocurrency, Ether or ETH. Its cryptocurrency is now second only to Bitcoin in market value.",
+      "image": "./images/eth_logo_blue.png",
+      "likes": 1,
+      "name_api": "ethereum",
+      "Reviews": []
+    },
+    {
+      "id": 2,
+      "token": "BTC",
+      "name": "Bitcoin",
+      "description": "Write description here!",
+      "image": "./images/btc_logo.png",
+      "likes": 0,
+      "name_api": "bitcoin",
+      "Reviews": []
+    },
+    {
+      "id": 3,
+      "token": "USDC",
+      "name": "USD Coin",
+      "description": "Write description here!",
+      "image": "./images/usdc_logo.png",
+      "likes": 0,
+      "name_api": "usd-coin",
+      "Reviews": []
+    },
+    {
+      "id": 4,
+      "token": "UNI",
+      "name": "Uniswap",
+      "description": "Write description here!",
+      "image": "./images/uni_logo.png",
+      "likes": 1,
+      "name_api": "uniswap",
+      "Reviews": []
+    },
+    {
+      "id": 5,
+      "token": "AAVE",
+      "name": "Aave",
+      "description": "Write description here!",
+      "image": "./images/aave_logo.png",
+      "likes": 1,
+      "name_api": "aave",
+      "Reviews": []
+    },
+    {
+      "id": 6,
+      "token": "BANK",
+      "name": "Bankless DAO",
+      "description": "Write description here!",
+      "image": "./images/bank_logo.png",
+      "likes": 1,
+      "name_api": "bankless-dao",
+      "Reviews": []
+    }
+  ]
+}

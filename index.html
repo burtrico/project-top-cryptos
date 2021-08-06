@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script defer type="text/javascript" src="index.js"></script>
+        
+        <title>Crypto 101</title>
+        
+    </head>
+
+
+
+<body>
+
+    <h1 id="title">BURT'S FAVORITE CRYPTOCURRENCIES</h1>
+    <div id="page-banner">
+
+    </div>
+
+    <div id="tokens" class='tokensContainer'>
+        <div id="ETH_Div" class="tokenDiv">
+            <img id="ETH_img" src="images/eth_logo_blue.png" class="tokenImg">
+            <button id="ETH_likes" class="tokenBttn"><p id="ETH_likesP"></p></button>
+        </div>
+        <div id="BTC_Div" class="tokenDiv">
+            <img id="BTC_img" src="images/btc_logo.png" class="tokenImg">
+            <button id="BTC_likes" class="tokenBttn"><p id="BTC_likesP"></p></button>
+        </div>
+        <div id="USDC_Div" class="tokenDiv">
+            <img id="USDC_img" src="images/usdc_logo.png" class="tokenImg">
+            <button id="USDC_likes" class="tokenBttn"><p id="USDC_likesP"></p></button>
+        </div>
+        <div id="UNI_Div" class="tokenDiv">
+            <img id="UNI_img" src="images/uni_logo.png" class="tokenImg">
+            <button id="UNI_likes" class="tokenBttn"><p id="UNI_likesP"></p></button>
+        </div>
+        <div id="AAVE_Div" class="tokenDiv">
+            <img id="AAVE_img" src="images/aave_logo.png" class="tokenImg">
+            <button id="AAVE_likes" class="tokenBttn"><p id="AAVE_likesP"></p></button>
+        </div>
+        <div id="BANK_Div" class="tokenDiv">
+            <img id="BANK_img" src="images/bank_logo.png" class="tokenImg">
+            <button id="BANK_likes" class="tokenBttn"><p id="BANK_likesP"></p></button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id="statsDiv" class='statsContainer'>
+            <ul id="statsList" class="statsList">
+            </ul>
+    </div>
+    <div id="chartDiv" class='chartContainer'>
+    
+    </div>
+
+       <!-- Rating Form -->
+    <form id="comment_form" data-id="insert token ID">
+        <label for="comment">Comment: </label>
+        <textarea name="comment" id="comment" placeholder="Insert Comment Here"></textarea>
+        <input type="submit" value="Update" />
+    </form>
+
+    <div id="commentsDiv" class='commentsContainer'>
+        <ul id="commentsList">
+        </ul>
+    </div>
+   
+    
+</body>
+
+</html>
